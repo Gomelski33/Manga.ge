@@ -1,0 +1,175 @@
+:root{
+	--main-color: #121212 ;
+	--color: #171717;
+	--text-color: #fff;
+	--back-color: #5B1111;
+	--text-secondary: rgba(255, 255, 255, 0.64);
+	--swiper-theme-color: #5B1111;
+}
+.about{
+	padding-top: 150px;
+}
+.about__title{
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.about__text{
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 100px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid #171717;
+}
+.about__text span{
+	color: var(--back-color);
+
+}
+.about__card-title{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 60px;
+}
+.about__inner{
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.about__card{
+	padding: 10px 10px;
+	background-color: var(--color);
+	border: 3px solid #5B1111;
+	margin-bottom: 150px;
+}
+.about__img{
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 400px;
+	margin-bottom: 20px;
+	opacity: 0.7;
+}
+.about__img-1{
+	background-image: url("../img/aboutus/toma1.jpg");
+}
+.sting{
+	position: absolute;
+  height: 196px;
+  width: 3px;
+  background-color: #5B1111;
+  bottom: -24px;
+  left: 380px;
+  transform: rotate(37deg);
+}
+.sting2{
+	position: absolute;
+  height: 150px;
+  width: 3px;
+	background-color: #5B1111;
+	bottom: 0;
+	left: 50%;
+}
+.sting3{
+	position: absolute;
+  height: 196px;
+  width: 3px;
+  background-color: #5B1111;
+  bottom: -24px;
+  right: 380px;
+  transform: rotate(-37deg);
+}
+.card__text-top{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.card__text{
+	font-size: 20px;
+	text-align: center;
+}
+.about__cards{
+	display: flex;
+	justify-content: space-between;
+}
+.about__img-2{
+	background-image: url("../img/aboutus/toma2.jpg")
+}
+.about__img-3{
+	background-image: url("../img/aboutus/toma3.jpg");
+}
+.about__img-4{
+	background-image: url("../img/aboutus/toma4.jpg");
+}
+/****************footer**************/
+@media screen and (max-width: 550px) {
+
+	.footer__colum:nth-child(4){
+		display: none;
+	}
+}
+@media screen and (max-width: 900px) {
+	.footer__colum:first-child{
+		display: none;
+	}
+}
+/*************header***********/
+.header__burger{
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 28px;
+	height: 22px;
+	margin-right: auto;
+	cursor: pointer;
+}
+.header__burger span{
+	width: 100%;
+	border-radius: 2rem;
+	height: 3px;
+	background-color: var(--back-color);
+}
+@media screen and (max-width: 620px) {
+	.header__list{
+		display: none;
+	}
+	.header__burger{
+		visibility: visible;
+	}
+}
+@media screen and (max-width: 1030px) {
+	.about__img{
+		width: 250px;
+	}
+	.sting{
+		left: 330px;
+	}
+	.sting3{
+		right: 330px;
+	}
+}
+@media screen and (max-width: 876px) {
+	.sting, .sting2, .sting3{
+		display: none;
+	}
+	.about__img{
+		width: 200px;
+		height: 350px;
+	}
+	.card__text-top{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 730px) {
+	.about__cards{
+		flex-wrap: wrap;
+	}
+
+}
+
+@media screen and (max-width: 476px) {
+	.about__cards{
+		justify-content: center;
+	}
+}
