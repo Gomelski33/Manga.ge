@@ -1,0 +1,71 @@
+.main{
+	padding-top: 100px ;
+}
+.region:hover{
+	fill: #661414;
+	cursor: pointer;
+}
+
+.purchase__inner{
+	display: flex;
+}
+
+.purchase__right{
+	padding-top: 40px;
+	flex-grow: 1;
+}
+.purchase__right p{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 15px;
+}
+.purchase__right h3{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px ;
+}
+.purchase__right h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.purchase__index{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.purchase__links{
+	font-size: 20px;
+	border-radius: 2rem;
+	padding: 4px 8px;
+	border: 1px solid #661414;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	transition: all 1s;
+}
+.purchase__links:hover{
+	background-color: #661414;
+	color: black;
+}
+.link{
+	
+
+}
+.address{
+	width: 400px;
+	padding: 10px 10px;
+	border: 3px thick #121212;
+	font-size: 16px;
+}
+
+.purchase__btn{
+	padding: 10px 40px;
+	border-radius: 2rem;
+	font-size: 30px;
+	background-color: #661414;
+}
+.purchase__buy{
+	margin-top: 100px;
+	text-align: center;
+}

@@ -1,0 +1,153 @@
+.manga__img{
+	width: 240px;
+	height: 360px;
+	background-image: url("../img/berserk/berserk-manga.jpg") ;
+	background-position: center;
+	background-size: cover;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	margin-right: 35px;
+}
+.main{
+	padding-top: 100px;
+	margin-bottom: 150px;
+}
+.manga__right{
+	flex-grow: 1;
+	padding: 20px;
+}
+.manga__btns a{
+	width: calc(100% - 35px);
+	display: block;
+	font-size: 18px;
+	text-align: center;
+	background-color: #5B1111 ;
+	padding: 8px 16px ;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.manga__top{
+	border-bottom: 1px solid #171717;
+	padding-bottom: 15px ;
+	margin-bottom: 30px;
+}
+.manga__category{
+	margin-bottom: 20px;
+	opacity: 0.4;
+	font-size: 19px;
+}
+.manga__title{
+	font-size: 33px;
+	margin-bottom: 15px;
+}
+.manga__inner{
+	display: flex;
+	justify-content: space-between;
+}
+.manga__top-list{
+	display: flex;
+	justify-content: space-between;
+}
+.manga__top-item{}
+.manga__top-item span{
+	display: block;
+	margin-bottom: 10px;
+}
+.manga__navigation{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.manga__navigation a{
+	margin-right: 10px;
+}
+.manga__descriptions{
+	line-height: 20px;
+	margin-bottom: 80px;
+}
+.manga__content{
+	max-width: 650px;
+}
+.manga__transleter{
+	margin-bottom: 50px;
+}
+.manga__transleter span{
+	margin-bottom: 10px;
+	display: block;
+}
+.manga__transleter a::before{
+	content: url("../img/ypMgDNAP-ezgif.com-resize.jpg");
+	width: 36px;
+	height: 36px;
+	margin-right: 10px;
+}
+
+.manga__transleter a{
+	display: flex;
+	height: 36px;
+	align-items: center;	
+}
+.textarea{
+	display: flex;
+	color: #fff;
+	align-items: center;
+	resize: none;
+	width: 100%;
+	background-color: #171717;
+	padding: 10px 20px 5px;
+	border-radius: 2rem;
+}
+
+.Comments p{
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+.Comments{
+	position: relative;
+}
+.airoplane{
+	position: absolute;
+	bottom: 10px;
+	bottom: 14px;
+  right: 18px;
+	height: 20px;
+}
+.manga__content-inner{
+	display: flex;
+	justify-content: space-between;
+}
+.manga__right-img{
+	width: 70px;
+	height: 105px;
+	background-position: center;
+	background-size: cover;
+}
+.mnaga__right-title{
+	margin-bottom: 20px;
+}
+.manga__right-text{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.right-item__text{
+	text-align: center;
+	flex-grow: 1;
+}
+.manga__right-item{
+	display: flex;
+	margin-bottom: 20px;
+}
+.manga__right-link{
+	padding: 10px 20px;
+	background-color: #5B1111;
+	border-radius: 2rem;
+}
+.img1{
+	background-image: url("../img/Bleach/Bleach-manga.jpg");
+
+}
+.img2{
+	background-image: url("../img/GTO/GTO-manga.jpg");
+}
+.img3{
+	background-image: url("../img/HajimenoIppo/HajimenoIppo-manga.jpg");
+}
