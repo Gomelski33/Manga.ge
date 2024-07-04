@@ -157,10 +157,7 @@ body{
 	padding: 17px 15px;
 	background-color: var(--color);
 }
-.header__item:hover{
-	transition: all 1s;
-	background-color: #1b1b1b;
-}
+
 	
 
 .header__right{
@@ -186,10 +183,32 @@ body{
 
 	cursor: pointer;
 }
+.header__link{
+	display: inline-block;
+}
+.header__link::before{
+	transition: all 1s;
+	position: absolute;
+	content: "";
+	display: inline-block;
+	width: 0%;
+	height: 3px;
+	bottom: 0;
+	left: 0;
+	background-color: #5B1111;
+}
+.header__link:hover:before{
+	content: "";
 
+	width: 100%;
+}
 
 .header__item:not(:last-child){
 	margin-right: 20px;
+}
+
+.header__item{
+	position: relative;
 }
 .main{
 }
@@ -450,4 +469,11 @@ body{
 	.popup__btns input{
 		width: 200px;
 	}
+}
+@font-face {
+  font-family: standartfont;
+  src: url(../fonts/bpg_nino_mtavruli_bold.ttf);
+}
+body{
+	font-family: standartfont;
 }
